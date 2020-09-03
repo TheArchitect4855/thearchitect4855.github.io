@@ -7,11 +7,14 @@
 
     <body>
         <header>
+            <a id="mobile-nav" href="javascript:toggleMainNav()">
+                <img src="./res/bars.svg" width="50" height="50"></img>
+            </a>
             <h1>Kurtis Knodel</h1>
-            <nav>
-                <a class="text" href="about.html">About Me</a>
-                <a class="text" href="resume.html">Resume</a>
-                <a class="text" href="portfolio.html">Portfolio</a>
+            <nav id="main-nav" style="display: none;">
+                <a class="text" href="./about.html">About Me</a>
+                <a class="text" href="./resume.html">Resume</a>
+                <a class="text" href="./portfolio.html">Portfolio</a>
             </nav>
         </header>
 
@@ -19,9 +22,9 @@
             <h2>Welcome!</h2>
             <p>
                 Welcome to my website! Here you can find my
-                 <a href="resume.html">resume</a> and
-                 <a href="portfolio.html">portfolio</a>,
-                 and <a href="about.html">find out about me</a>.
+                 <a href="./resume.html">resume</a> and
+                 <a href="./portfolio.html">portfolio</a>,
+                 and <a href="./about.html">find out about me</a>.
             </p>
             <p>
                 I programmed this website by myself, from scratch, and I am hosting it on <a target="_blank" href="https://pages.github.com">GitHub Pages</a>.
@@ -35,5 +38,7 @@
             &copy; Kurtis Knodel 2020 <br />
             <a href="mailto:kurtisknodel@gmail.com">CONTACT</a>
         </footer>
+
+        <script src="./script.js"></script>
     </body>
 </html>
